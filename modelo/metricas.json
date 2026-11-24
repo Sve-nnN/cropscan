@@ -1,0 +1,66 @@
+{
+  "n_total": 487,
+  "n_train": 330,
+  "n_val": 59,
+  "n_test": 98,
+  "n_test_pos": 38,
+  "umbral": 0.6749999999999998,
+  "keras": {
+    "nombre": "keras",
+    "recall_positivo": 0.8157894736842105,
+    "precision_positivo": 0.9393939393939394,
+    "f1_positivo": 0.8732394366197183,
+    "f1_macro": 0.9006197183098592,
+    "matriz_[[TN,FP],[FN,TP]]": [
+      [
+        58,
+        2
+      ],
+      [
+        7,
+        31
+      ]
+    ]
+  },
+  "tflite": {
+    "nombre": "tflite",
+    "recall_positivo": 0.7894736842105263,
+    "precision_positivo": 0.9375,
+    "f1_positivo": 0.8571428571428571,
+    "f1_macro": 0.8888888888888888,
+    "matriz_[[TN,FP],[FN,TP]]": [
+      [
+        58,
+        2
+      ],
+      [
+        8,
+        30
+      ]
+    ]
+  },
+  "tflite_tamano_MB": 2.53,
+  "latencia_ms_por_foto_CPU_Mac_M2": 6.3,
+  "por_clase_original_test": {
+    "Brown_clumps": {
+      "n": 20,
+      "aciertos": 20
+    },
+    "Flea_Beetles": {
+      "n": 20,
+      "aciertos": 20
+    },
+    "Mealy_bugs": {
+      "n": 30,
+      "aciertos": 23
+    },
+    "Scale_insect": {
+      "n": 8,
+      "aciertos": 8
+    },
+    "Spider_y_webs": {
+      "n": 20,
+      "aciertos": 18
+    }
+  }
+}
